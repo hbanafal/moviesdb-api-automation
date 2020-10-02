@@ -14,5 +14,6 @@ Steps :
 3. Run tests using command - ./gradlew clean test
 4. Generate Serenity Reports using - ./gradlew aggregate
 5. Open report from the path - moviesdb-api-automation/target/site/serenity/index.html
+6. Click on Test Results in the report and check the stories and steps involved in the test.
 
 Configuration - /src/test/resources/config.properties contains API Key, BaseURI and Write access token. Currently there is no code to generate Write access token. Please update the write access token and api key if that token expires or doesn't work.  
